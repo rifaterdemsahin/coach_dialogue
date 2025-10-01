@@ -162,3 +162,28 @@ This project will use a lightweight frontend and the Gemini API as the backend v
 2) Save as a module-specific dialogue spec (e.g., `dialogue_[module]_[topic].md`).
 3) Provide to the website’s `Cover` page to initialize the Gemini `createDialogue` workflow.
 4) Run the dialogue and export transcript for rubric evaluation.
+
+---
+
+## Directory Structure
+
+├── 1_Real/                              # OKR Management & Course Objectives
+│   ├── objective.md                     # Main objective
+│   ├── keyresults1.md                   # Overview of all key results
+│   ├── keyresults1.md (individual)      # KR1: Foundation Mastery
+│   ├── keyresults2.md                   # KR2: Advanced Proficiency
+│   ├── keyresults3.md                   # KR3: Real-World Implementation
+│   ├── keyresults4.md                   # KR4: Production Readiness
+│   └── README.md                        # OKR system explanation
+├── 2_Environment/                       # Environment Setup & Configuration
+│   └── README.md                        # Environment setup guides
+├── 3_Imaginary/                         # Theoretical Concepts & Planning for UX
+│   └── README.md           
+├── 4_Formula/                           # Formulas, Expressions & Prompts
+│   └── README.md           
+├── 5_Symbols/                           # Practical Projects & Code
+│   │   ├── README.md    
+├── 6_Semblance/               
+│   └── README.md                        # All errors outlined
+├── 7_Testing/                           # Testing & Quality Assurance
+│   └── README.md                        # Testing strategies and QA guides
