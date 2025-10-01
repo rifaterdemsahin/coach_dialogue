@@ -3,51 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coach Dialogue – Cover</title>
+  <title>Coach Dialogue</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
   <main class="container">
-    <h1>Coach Dialogue – Cover</h1>
-    <form id="cover-form">
-      <label>
-        Title
-        <input type="text" id="title" required />
-      </label>
-      <label>
-        Duration (minutes)
-        <input type="number" id="duration" min="5" max="30" value="15" />
-      </label>
-      <label>
-        Scenario (3–5 sentences)
-        <textarea id="scenario" rows="5" required></textarea>
-      </label>
-      <label>
-        Your Role (2–3 sentences)
-        <textarea id="role" rows="4" required></textarea>
-      </label>
-      <label>
-        Plan of Action (2–3 prompts)
-        <textarea id="plan" rows="4" placeholder="- Prompt 1\n- Prompt 2\n- Prompt 3" required></textarea>
-      </label>
-      <label>
-        Learning Objectives (2–3)
-        <textarea id="objectives" rows="4" placeholder="- Objective 1\n- Objective 2" required></textarea>
-      </label>
-      <label>
-        Rubric (Advanced/Intermediate/Beginner)
-        <textarea id="rubric" rows="6" placeholder="Advanced: ...\nIntermediate: ...\nBeginner: ..." required></textarea>
-      </label>
-      <label>
-        Additional Context (optional)
-        <textarea id="context" rows="4" placeholder=".txt references, constraints, definitions"></textarea>
-      </label>
-      <button type="submit">Start Dialogue</button>
-    </form>
+    <h1>Coach Dialogue</h1>
+    <ul>
+      <li><a href="cover.html">Start New Dialogue</a></li>
+      <li><a href="dialogue.html">Continue Dialogue</a></li>
+      <li><a href="summary.html">View Summary</a></li>
+    </ul>
   </main>
-  <script src="./assets/js/api.js"></script>
-  <script src="./assets/js/cover.js"></script>
   <noscript>Please enable JavaScript to use this site.</noscript>
-  </body>
-  </html>
-
+</body>
+</html>
